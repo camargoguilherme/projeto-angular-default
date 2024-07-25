@@ -1,6 +1,11 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
+    "create-components": {
+      "description": "Create all components",
+      "factory": "./create-components/index",
+      "schema": "./create-components/schema.json"
+    },
     "component": {
       "description": "Create component main/default",
       "factory": "./component/index",
