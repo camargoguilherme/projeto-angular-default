@@ -1,7 +1,7 @@
 {
-  "name": "tria-schematics",
+  "name": "my-schematics",
   "version": "1.0.0",
-  "description": "Tria Schematics",
+  "description": "Custom Schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine src/**/*_spec.js"
